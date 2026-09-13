@@ -1,6 +1,6 @@
 """ЛР № 1. Знакомство со средой: Python, NumPy, matplotlib, scikit-learn.
 
-Вариант 4: K = 3 (petal width) для гистограммы, J = 42 для цифры из Digits.
+Вариант 10: K = 2 (petal length) для гистограммы, J = 1500 для цифры из Digits.
 """
 
 import numpy as np
@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris, load_wine, load_digits
 from sklearn.metrics import pairwise_distances
 
-FEATURE_INDEX = 3  # K: номер признака Iris для гистограммы (вариант 4)
-DIGIT_INDEX = 42   # J: индекс цифры из Digits (вариант 4)
+FEATURE_INDEX = 2    # K: номер признака Iris для гистограммы (вариант 10)
+DIGIT_INDEX = 1500   # J: индекс цифры из Digits (вариант 10)
 
 # --- ШАГ 1: загрузка трёх датасетов ---
 iris = load_iris()

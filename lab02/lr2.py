@@ -1,7 +1,7 @@
 """ЛР № 2. Признаки, метрики, стандартизация и разбиение выборки.
 
-Вариант 4: пара признаков Wine для диаграммы рассеяния —
-6 (flavanoids), 9 (color_intensity).
+Вариант 10: пара признаков Wine для диаграммы рассеяния —
+0 (alcohol), 6 (flavanoids).
 """
 
 import numpy as np
@@ -13,8 +13,8 @@ from sklearn.model_selection import train_test_split
 
 RANDOM_STATE = 42
 TEST_SIZE = 0.3
-FEATURE_1 = 6  # flavanoids (вариант 4)
-FEATURE_2 = 9  # color_intensity (вариант 4)
+FEATURE_1 = 0  # alcohol (вариант 10)
+FEATURE_2 = 6  # flavanoids (вариант 10)
 
 # --- ШАГ 1: три расстояния вручную между двумя цветками Iris ---
 iris = load_iris()
