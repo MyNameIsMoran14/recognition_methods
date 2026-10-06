@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris, load_wine, load_digits
 from sklearn.metrics import pairwise_distances
 
-FEATURE_INDEX = 2    # K: номер признака Iris для гистограммы (вариант 10)
-DIGIT_INDEX = 1500   # J: индекс цифры из Digits (вариант 10)
+FEATURE_INDEX = 2    # K: номер признака Iris для гистограммы 
+DIGIT_INDEX = 1500   # J: индекс цифры из Digits 
 
 # --- ШАГ 1: загрузка трёх датасетов ---
 iris = load_iris()
