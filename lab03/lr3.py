@@ -11,7 +11,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 
-K_VARIANTS = (1, 15)   # K: оба значения из варианта 10
+K_VARIANTS = (1, 15)   
 METRIC_VAR = "manhattan"
 
 # --- ШАГ 1: kNN на Wine БЕЗ масштабирования ---
